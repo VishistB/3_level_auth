@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+.regbg{
+    background: #201A31;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+.biglogin{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.paralogin{
+    color: #74707D;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.inpdiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0;
+}
+.leftinp1{
+    /* border-radius: 22px; */
+    background: #38304C;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 22px 0 0 22px;
+}
+.rightinp1{
+    /* border-radius: 22px; */
+    border: none;
+    background: #38304C;
+    width: 70%;
+    border-radius:0 22px 22px 0;
+    color:#FFF
+}
+
+.leftinp2{
+    /* border-radius: 22px; */
+    background: rgba(56, 48, 76, 0.24);
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 22px 0 0 22px;
+}
+.rightinp2{
+    /* border-radius: 22px; */
+    border: none;
+    background: rgba(56, 48, 76, 0.24);
+    width: 70%;
+    border-radius:0 22px 22px 0;
+    color:#FFF
+}
+.rightinp2::after{
+    outline: 0;
+}
+.lgnbtn{
+    border-radius: 39px;
+    background: #0DF5E3;
+    width: 216px;
+    height: 66px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 1000;
+    margin-top: 15px;
+    
+}
+.lgnbtn2{
+    background: #F57C0D;
+    border-radius: 39px;
+    width: 216px;
+    height: 66px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 1000;
+    margin-top: 15px;
+}
+.forgotlink{
+    color: #0DF5E3;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.forgotlink2{
+    color: #74707D;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
